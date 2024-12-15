@@ -1,0 +1,10 @@
+name: Explore-Actions
+run on: push
+jobs:
+      explore-actions
+      runs on: ubuntu-latest
+      steps:
+          -name: print current os
+          run: echo"the current os is ${{runner.os}} server"
+          
+    
